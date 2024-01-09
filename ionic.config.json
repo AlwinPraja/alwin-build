@@ -1,0 +1,7 @@
+{
+  "name": "alwin_build_project",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

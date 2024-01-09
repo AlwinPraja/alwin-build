@@ -1,0 +1,100 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-button routerLink="/login" fill="clear">
+      <ion-icon slot="start" name="arrow-back"></ion-icon> Kembali 
+    </ion-button>
+    <ion-title>
+      Jadwal Matakuliah
+    </ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content [fullscreen]="true" >
+  <body>
+    <div>
+       <div class="wave"></div>
+       <div class="wave"></div>
+       <div class="wave"></div>
+   
+  <div class="background-image">
+
+  <div class="bubbles">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  
+  <br>
+      <table class="tb">
+        <thead>
+          <tr class="t1">
+            <th scope="col">Kd</th>
+            <th scope="col">Tanggal</th>
+            <th scope="col">Matkul</th>
+            <th scope="col">Dosen </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of allData">
+            <th scope="row">{{data.kd_jadwal}}</th>
+            <td>{{data.tanggal}}</td>
+            <td>{{data.matkul}}</td>
+            <td>{{data.dosen}}</td>
+          </tr>
+          <!-- Loop variabel from TS for Get Data -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</body>
+ 
+
+</ion-content>
